@@ -15,7 +15,4 @@ export default class MyComponent extends React.Component<MyComponentProps, {}> {
   }
 }
 
-const App = () => {
-  return <h1>Hello Wepack!</h1>;
-};
 ReactDOM.render(<MyComponent />, document.getElementById("root"));
