@@ -9,7 +9,8 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "lint": "eslint . --cache --ext js,jsx,ts,tsx,md"
+    "lint": "eslint . --cache --ext js,jsx,ts,tsx,md",
+    "format": "prettier -w ."
   },
   "keywords": [],
   "author": "",
