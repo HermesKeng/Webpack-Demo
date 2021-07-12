@@ -1,18 +1,10 @@
-import * as React from "react";
-import ReactDOM from "react-dom";
-const styles = require("./style.scss");
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-export interface MyComponentProps {}
-
-export default class MyComponent extends React.Component<MyComponentProps, {}> {
-  render() {
-    return (
-      <div className={"test"}>
-        <h1>Hello World!</h1>
-        <p className="btn btn-primary">Foo to the barz</p>
-      </div>
-    );
-  }
-}
-
-ReactDOM.render(<MyComponent />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
