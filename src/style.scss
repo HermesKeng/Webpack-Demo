@@ -1,12 +1,12 @@
 $hello-color: blue;
 @font-face {
-  font-family: "CreamFont";
-  src: url("./creamfont-2.0.otf") format(otf);
+  font-family: 'CreamFont';
+  src: url('./creamfont-2.0.otf') format(otf);
   font-weight: 800;
   font-style: normal;
 }
 body {
   color: $hello-color;
-  font-family: "CreamFont";
+  font-family: 'CreamFont';
   font-size: 30px;
 }

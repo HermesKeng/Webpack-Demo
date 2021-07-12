@@ -13,5 +13,12 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": { "require-jsdoc": 0 }
+  "rules": {
+    "require-jsdoc": 0,
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": false }
+    ]
+  }
 }
